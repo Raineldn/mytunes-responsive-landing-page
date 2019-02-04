@@ -42,16 +42,9 @@ a {
   font-size: 2rem;
 }
 
-/* Buttons */
-
-.btn {
-  padding: 1rem;
-  color: #fff;
-  display: inline-block;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
+section#entertainment {
+  background: url('../img/section-bg.jpg') no-repeat bottom/cover;
+  padding: 10rem  0;
 }
 
 /* Showcase */
@@ -79,6 +72,7 @@ a {
 }
 
 /* Utility Classes */
+
 .container {
   max-width: 1180px;
   text-align: center;
@@ -88,6 +82,49 @@ a {
 
 .lead {
   font-size: 1.3rem;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+/* Text Colors*/
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
 }
 
 .mb {
